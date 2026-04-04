@@ -28,7 +28,7 @@ declare global {
   }
 }
 
-const API_BASE = "https://roushan-ai-production.up.railway.app";
+const API_BASE = "/api";
 const WAKE_WORD = "baba";
 const WAKE_CONFIRMATION = "Yes Roushan Sir, I am here for your help.";
 
