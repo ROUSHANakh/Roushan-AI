@@ -7,7 +7,7 @@ const composerEl = document.getElementById("composer");
 const micBtn = document.getElementById("micBtn");
 const speakBtn = document.getElementById("speakBtn");
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "roushan-ai.railway.internal";
 const WAKE_WORD = "baba";
 const WAKE_CONFIRMATION = "Yes Roushan Sir, I am here for your help.";
 
