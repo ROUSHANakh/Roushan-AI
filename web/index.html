@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BABA Jarvis Console</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="console-shell">
+      <header class="topbar">
+        <div>
+          <p class="brand">BABA</p>
+          <h1>Jarvis Style Voice Console</h1>
+        </div>
+        <p class="stack">OpenAI + SearchAPI + ElevenLabs</p>
+      </header>
+
+      <section class="orb-zone" aria-label="BABA voice state">
+        <div id="orb" class="orb" role="img" aria-label="BABA emoji">🤖</div>
+        <p id="status" class="status">Say "baba" then your command.</p>
+      </section>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+
+      <form id="composer" class="composer" aria-label="Message composer">
+        <textarea id="prompt" rows="3" placeholder="Type a message or use voice wake word"></textarea>
+        <div class="actions">
+          <button id="askBtn" type="submit">Send</button>
+          <button id="micBtn" type="button">Start Mic</button>
+          <button id="speakBtn" type="button">Speak Last Reply</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

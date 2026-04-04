@@ -1,0 +1,16 @@
+BABA MVP package summary
+
+1) Backend (Python / FastAPI)
+- server.py: chat + tts endpoints, CORS, prompt loading
+- prompt.txt: master assistant behavior prompt
+- search.py: SearchAPI integration for live web context
+- tts.py: ElevenLabs text-to-speech request
+- config.py: environment key loading
+
+2) Web (Static HTML/CSS/JS)
+- index.html: UI layout
+- style.css: sci-fi styling and lightweight motion
+- script.js: mic capture, backend calls, reply playback
+
+3) Future Android
+- placeholder folder only
